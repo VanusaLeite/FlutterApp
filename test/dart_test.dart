@@ -64,9 +64,9 @@ void main() {
    test('Soma dos dígitos de 123', () {
      expect(sumOfDigits(123), equals(6));
    });
-   
-   test('Soma dos dígitos de -1', () {
-     expect(sumOfDigits(-1), throwsArgumentError);
+
+   test('Soma dos dígitos de 1', () {
+    expect(sumOfDigits(-1),throwsArgumentError);
    });
  });
 }
